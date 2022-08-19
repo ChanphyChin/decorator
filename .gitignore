@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/packages/decorator-components/node_modules
+/packages/decorator-core/node_modules
+/demo/node_modules
+
+# testing
+/coverage
+/packages/decorator-components/coverage
+/packages/decorator-core/coverage
+/demo/coverage
+
+# production
+/build
+/packages/decorator-components/build
+/packages/decorator-core/build
+/demo/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
